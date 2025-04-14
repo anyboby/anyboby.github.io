@@ -5,17 +5,23 @@
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
-  background-color: var(--global-bg-color);
+  background-image: linear-gradient(rgba(242, 229, 188, 0.9), rgba(242,229,188, 0.9)), url('/assets/img/wood_bg_orig.png'); /* Light overlay */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--global-bg-color); /* For the light theme */
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 66px;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: linear-gradient(rgba(40, 40, 40, 0.95), rgba(40, 40, 40, 0.95)), url('/assets/img/wood_bg_orig.png'); /* Dark overlay */
+    background-color: var(--global-bg-color); /* For the dark theme */
+  }
+}
+
 
 body.fixed-top-nav {
   // Add some padding for the nav-bar.

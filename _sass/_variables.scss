@@ -32,10 +32,44 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// gruvbox colors
+$gb-bg-h: #f9f5d7;
+$gb-bg:   #fbf1c7;
+$gb-bg-s: #f2e5bc;
+$gb-bg1:  #ebdbb2;
+$gb-bg2:  #d5c4a1;
+$gb-bg3:  #bdae93;
+$gb-bg4:  #a89984;
+
+$gb-fg:  #282828;
+$gb-fg1: #3c3836;
+$gb-fg2: #504945;
+$gb-fg3: #665c54;
+$gb-fg4: #7c6f64;
+
+$gb-red:    #9d0006;
+$gb-green:  #79740e;
+$gb-yellow: #b57614;
+$gb-blue:   #076678;
+$gb-purple: #8f3f71;
+$gb-aqua:   #427b58;
+$gb-orange: #af3a03;
+$gb-gray:   #928374;
+
+$gb-red-dim:    #cc2412;
+$gb-green-dim:  #98971a;
+$gb-yellow-dim: #d79921;
+$gb-blue-dim:   #458598;
+$gb-purple-dim: #b16286;
+$gb-aqua-dim:   #689d6a;
+$gb-orange-dim: #d65d0e;
+$gb-gray-dim:   #7c6f64;
+
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
-$code-bg-color-dark: #2c3237 !default;
+$code-bg-color-light: rgba($gb-purple, 0.05);
+$code-bg-color-dark: $gb-blue-dim !default;
+// $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location
 $fa-font-path: "../webfonts";
