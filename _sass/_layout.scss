@@ -2,7 +2,7 @@
  * Content
  ******************************************************************************/
 
-body {
+ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-image: linear-gradient(rgba(242, 229, 188, 0.9), rgba(242,229,188, 0.9)), url('/assets/img/wood_bg_orig.png'); /* Light overlay */
@@ -15,11 +15,18 @@ body {
   }
 }
 
+/* Dark mode styles for automatic switching */
 @media (prefers-color-scheme: dark) {
   body {
     background-image: linear-gradient(rgba(40, 40, 40, 0.95), rgba(40, 40, 40, 0.95)), url('/assets/img/wood_bg_orig.png'); /* Dark overlay */
     background-color: var(--global-bg-color); /* For the dark theme */
   }
+}
+
+/* Dark mode styles for manual button switching */
+html[data-theme-setting="dark"] body {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.95), rgba(40, 40, 40, 0.95)), url('/assets/img/wood_bg_orig.png'); /* Dark overlay */
+  background-color: var(--global-bg-color); /* For the dark theme */
 }
 
 
