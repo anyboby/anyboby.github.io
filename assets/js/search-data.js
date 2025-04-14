@@ -21,8 +21,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-a-ph-d-position-with-matthijs-spaan-at-the-tu-delft",
-          title: 'Started a Ph.D. position with Matthijs Spaan at the TU Delft!',
+            },},{id: "news-started-a-ph-d-on-epistemic-uncertainty-in-rl-with-matthijs-spaan-at-the-tu-delft",
+          title: 'Started a Ph.D. on Epistemic Uncertainty in RL with Matthijs Spaan at the...',
           description: "",
           section: "News",},{id: "news-one-paper-accepted-at-iros-2021",
           title: 'One paper accepted at IROS 2021.',
