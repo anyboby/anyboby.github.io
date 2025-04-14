@@ -28,10 +28,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-started-a-ph-d-position-with-matthijs-spaan-at-the-tu-delft",
+            },},{id: "news-started-a-ph-d-position-with-matthijs-spaan-at-the-tu-delft",
           title: 'Started a Ph.D. position with Matthijs Spaan at the TU Delft!',
           description: "",
           section: "News",},{id: "news-one-paper-accepted-at-iros-2021",
