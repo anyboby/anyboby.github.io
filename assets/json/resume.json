@@ -17,7 +17,7 @@
       "name": "Sequential Decision Making, TU Delft, NL",
       "position": "Ph.D. in Computer Science and Artificial Intelligence",
       "startDate": "2021-06-01",
-      "endDate": "2025-05-30",
+      "endDate": "present",
       "summary": "Efficient Uncertainty Quantification in Deep Reinforcement Learning. Supervised by Prof. Matthijs T.J. Spaan and Dr. Wendelin Bohmer.",
       "highlights": ["Part of EU Horizons Project Epistemic AI"]
     },
@@ -105,20 +105,38 @@
     {
       "name": "Diverse Projection Ensembles for Distributional Reinforcement Learning",
       "summary": "International Conference on Learning Representations (ICLR).",
-      "publisher": "Moritz A. Zanger, Wendelin Bohmer, and Matthijs T. J. Spaan.",
+      "publisher": "Moritz A. Zanger, Wendelin Böhmer, and Matthijs T. J. Spaan.",
       "releaseDate": "2024"
     },
     {
       "name": "Value Improved Actor Critic Algorithms",
-      "summary": "Preprint (Arxiv)",
-      "publisher": "Yaniv Oren, Moritz A. Zanger, Pascal R. van der Vaart, Matthijs T. J. Spaan and Wendelin Bohmer",
+      "summary": "Neural Information Processing Systems (NeurIPS).",
+      "publisher": "Yaniv Oren, Moritz A. Zanger, Pascal R. van der Vaart, Matthijs T. J. Spaan and Wendelin Böhmer",
+      "releaseDate": "2025"
+    },
+    {
+      "name": "How Ensembles of Distilled Policies Improve Generalisation in Reinforcement Learning",
+      "summary": "Neural Information Processing Systems (NeurIPS).",
+      "publisher": "Max Weltevrede, Moritz A. Zanger, Matthijs T. J. Spaan and Wendelin Böhmer",
       "releaseDate": "2025"
     },
     {
       "name": "Contextual Similarity Distillation: Ensemble Uncertainties with a Single Model",
-      "summary": "Preprint (Arxiv)",
-      "publisher": "Moritz A. Zanger, Pascal R. van der Vaart, Matthijs T. J. Spaan and Wendelin Bohmer",
-      "releaseDate": "2025"
+      "summary": "International Conference on Learning Representations (ICLR).",
+      "publisher": "Moritz A. Zanger, Pascal R. van der Vaart, Matthijs T. J. Spaan and Wendelin Böhmer",
+      "releaseDate": "2026"
+    },
+    {
+      "name": "Universal Value-Function Uncertainties",
+      "summary": "International Conference on Learning Representations (ICLR).",
+      "publisher": "Moritz A. Zanger, Max Weltevrede, Yaniv Oren, Pascal R. Van der Vaart, Caroline Horsch, Wendelin Böhmer andMatthijs T. J. Spaan",
+      "releaseDate": "2026"
+    },
+    {
+      "name": "Cholesky Ordered Projection Q-learning (COP-Q): Guiding Safety-First Exploitation-Exploration by Multi-Objective Uncertainty",
+      "summary": "Under review.",
+      "publisher": "Guopeng Li, Moritz A. Zanger, Matthijs T. J. Spaan and Julian F. P. Kooij",
+      "releaseDate": "2026"
     }
   ],
   "skills": [
