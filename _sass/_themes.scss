@@ -38,20 +38,20 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{$gb-bg};             /* Main background - the light Gruvbox background */
-  --global-code-bg-color: #{$gb-bg1};        /* Lighter background for code blocks */
-  --global-text-color: #{$gb-fg1};            /* Main text color - the darker Gruvbox foreground */
-  --global-text-color-light: #{$gb-fg2};     /* Slightly lighter text */
-  --global-theme-color: #{$gb-purple};       /* Your cool purple accent color */
-  --global-hover-color: #{$gb-purple};       /* Same for hover effects */
-  --global-hover-text-color: #{$gb-bg};      /* Text on hover goes to the light background */
-  --global-footer-bg-color: #{$gb-bg2};      /* A slightly darker light background for the footer */
-  --global-footer-text-color: #{$gb-fg2};    /* Readable text on the footer */
-  --global-footer-link-color: #{$gb-fg};     /* Darker links on the footer */
-  --global-distill-app-color: #{$gb-bg3};    /* Another shade of light background */
+  --global-bg-color: #{$gb-bg}; /* Main background - the light Gruvbox background */
+  --global-code-bg-color: #{$gb-bg1}; /* Lighter background for code blocks */
+  --global-text-color: #{$gb-fg1}; /* Main text color - the darker Gruvbox foreground */
+  --global-text-color-light: #{$gb-fg2}; /* Slightly lighter text */
+  --global-theme-color: #{$gb-purple}; /* Your cool purple accent color */
+  --global-hover-color: #{$gb-purple}; /* Same for hover effects */
+  --global-hover-text-color: #{$gb-bg}; /* Text on hover goes to the light background */
+  --global-footer-bg-color: #{$gb-bg2}; /* A slightly darker light background for the footer */
+  --global-footer-text-color: #{$gb-fg2}; /* Readable text on the footer */
+  --global-footer-link-color: #{$gb-fg}; /* Darker links on the footer */
+  --global-distill-app-color: #{$gb-bg3}; /* Another shade of light background */
   --global-divider-color: rgba(#{$gb-fg}, 0.1); /* A subtle divider based on foreground */
-  --global-card-bg-color: #{$gb-bg-h};       /* Slightly highlighted background for cards */
-  --global-highlight-color: #{$gb-red-dim};  /* A dimmed red for highlights */
+  --global-card-bg-color: #{$gb-bg-h}; /* Slightly highlighted background for cards */
+  --global-highlight-color: #{$gb-red-dim}; /* A dimmed red for highlights */
   --global-back-to-top-bg-color: rgba(
     #{color.channel($gb-fg, "red", $space: rgb)},
     #{color.channel($gb-fg, "green", $space: rgb)},
@@ -59,8 +59,8 @@
     0.4
   );
   --global-back-to-top-text-color: #{$gb-bg-h}; /* Light text on the back-to-top button */
-  --global-newsletter-bg-color: #{$gb-bg-h};  /* Light background for newsletter */
-  --global-newsletter-text-color: #{$gb-fg};  /* Dark text on newsletter */
+  --global-newsletter-bg-color: #{$gb-bg-h}; /* Light background for newsletter */
+  --global-newsletter-text-color: #{$gb-fg}; /* Dark text on newsletter */
 
   --global-tip-block: #{$gb-green};
   --global-tip-block-bg: #{$gb-bg-s};
@@ -110,19 +110,19 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #{$gb-fg};           /* Swap background to the main foreground */
-  --global-code-bg-color: #{$gb-bg4};      /* Use a darker background for code */
-  --global-text-color: #{$gb-bg};           /* Swap text to the main background */
-  --global-text-color-light: #{$gb-bg2};    /* Swap lighter text to a lighter background shade */
-  --global-theme-color: #{$gb-aqua-dim};    /* Use a darker accent color that should pop */
-  --global-hover-color: #{$gb-aqua-dim};    /* Same for hover */
-  --global-hover-text-color: #{$gb-fg};     /* Hover text goes back to the dark foreground */
-  --global-footer-bg-color: #{$gb-fg2};      /* Darker background for the footer */
-  --global-footer-text-color: #{$gb-bg2};    /* Lighter text on the darker footer */
-  --global-footer-link-color: #{$gb-bg};     /* Light links on the darker footer */
-  --global-distill-app-color: #{$gb-fg3};    /* A bit darker for this */
-  --global-divider-color: #{$gb-bg4};      /* A subtle divider color */
-  --global-card-bg-color: #{$gb-fg};      /* Use the highlighted foreground for cards */
+  --global-bg-color: #{$gb-fg}; /* Swap background to the main foreground */
+  --global-code-bg-color: #{$gb-bg4}; /* Use a darker background for code */
+  --global-text-color: #{$gb-bg}; /* Swap text to the main background */
+  --global-text-color-light: #{$gb-bg2}; /* Swap lighter text to a lighter background shade */
+  --global-theme-color: #{$gb-aqua-dim}; /* Use a darker accent color that should pop */
+  --global-hover-color: #{$gb-aqua-dim}; /* Same for hover */
+  --global-hover-text-color: #{$gb-fg}; /* Hover text goes back to the dark foreground */
+  --global-footer-bg-color: #{$gb-fg2}; /* Darker background for the footer */
+  --global-footer-text-color: #{$gb-bg2}; /* Lighter text on the darker footer */
+  --global-footer-link-color: #{$gb-bg}; /* Light links on the darker footer */
+  --global-distill-app-color: #{$gb-fg3}; /* A bit darker for this */
+  --global-divider-color: #{$gb-bg4}; /* A subtle divider color */
+  --global-card-bg-color: #{$gb-fg}; /* Use the highlighted foreground for cards */
   --global-back-to-top-bg-color: rgba(
     #{color.channel($gb-bg, "red", $space: rgb)},
     #{color.channel($gb-bg, "green", $space: rgb)},
@@ -130,8 +130,8 @@ html[data-theme="dark"] {
     0.5
   );
   --global-back-to-top-text-color: #{$gb-fg}; /* Dark text on the light back-to-top */
-  --global-newsletter-bg-color: #{$gb-fg2};   /* Darker for newsletter background */
-  --global-newsletter-text-color: #{$gb-bg};   /* Light text on the darker background */
+  --global-newsletter-bg-color: #{$gb-fg2}; /* Darker for newsletter background */
+  --global-newsletter-text-color: #{$gb-bg}; /* Light text on the darker background */
 
   --global-tip-block: #{$gb-green-dim};
   --global-tip-block-bg: #{$gb-fg};
@@ -154,7 +154,6 @@ html[data-theme="dark"] {
     display: block;
   }
 }
-
 
 html[data-theme-setting="dark"] {
   #light-toggle-system {

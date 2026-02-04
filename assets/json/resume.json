@@ -140,42 +140,42 @@
     }
   ],
   "skills": [
-  {
-    "name": "Python"
-  },
-  {
-    "name": "C++"
-  },
-  {
-    "name": "Java"
-  },
-  {
-    "name": "MATLAB"
-  },
-  {
-    "name": "SQL"
-  },
-  {
-    "name": "Git"
-  },
-  {
-    "name": "Jax"
-  },
-  {
-    "name": "PyTorch"
-  },
-  {
-    "name": "Tensorflow"
-  },
-  {
-    "name": "Slurm"
-  },
-  {
-    "name": "ROS"
-  },
-  {
-    "name": "MuJoCo, Unity, CARLA"
-  }
+    {
+      "name": "Python"
+    },
+    {
+      "name": "C++"
+    },
+    {
+      "name": "Java"
+    },
+    {
+      "name": "MATLAB"
+    },
+    {
+      "name": "SQL"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "Jax"
+    },
+    {
+      "name": "PyTorch"
+    },
+    {
+      "name": "Tensorflow"
+    },
+    {
+      "name": "Slurm"
+    },
+    {
+      "name": "ROS"
+    },
+    {
+      "name": "MuJoCo, Unity, CARLA"
+    }
   ],
   "languages": [
     {
