@@ -5,51 +5,30 @@
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
-  background-image: linear-gradient(rgba(242, 229, 188, 0.9), rgba(242, 229, 188, 0.9)), url("/assets/img/wood_bg_orig.png"); /* Light overlay */
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: var(--global-bg-color); /* For the light theme */
+  background-color: var(--global-bg-color);
+  background-attachment: fixed; // Recommended for "cover" backgrounds
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 66px;
   }
 }
 
-// /* Dark mode styles for automatic switching */
-// @media (prefers-color-scheme: dark) {
-//   body {
-//     background-image: linear-gradient(rgba(40, 40, 40, 0.95), rgba(40, 40, 40, 0.95)), url("/assets/img/wood_bg_orig.png"); /* Dark overlay */
-//     background-color: var(--global-bg-color); /* For the dark theme */
-//   }
-// }
-
-// /* Dark mode styles for manual button switching */
-// html[data-theme-setting="dark"] body {
-//   background-image: linear-gradient(rgba(40, 40, 40, 0.95), rgba(40, 40, 40, 0.95)), url("/assets/img/wood_bg_orig.png"); /* Dark overlay */
-//   background-color: var(--global-bg-color); /* For the dark theme */
-// }
-
-body {
-  padding-bottom: 70px;
-  color: var(--global-text-color);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: var(--global-bg-color);
+/* 1. Default / Light Theme */
+/* We apply the light background by default and specifically for data-theme="light" */
+body, html[data-theme="light"] body {
+  background-image: 
+    linear-gradient(rgba(242, 229, 188, 0.8), rgba(242, 229, 188, 0.8)), 
+    url("/assets/img/wood_bg_orig.png");
 }
 
-/* Explicit light theme */
-html[data-theme="light"] body {
-  background-image: linear-gradient(rgba(242, 229, 188, 0.9), rgba(242, 229, 188, 0.9)), url("/assets/img/wood_bg_orig.png");
-}
-
-/* Explicit dark theme */
+/* 2. Dark Theme */
+/* This overrides the default when the attribute is set to dark */
 html[data-theme="dark"] body {
-  background-image: linear-gradient(rgba(40, 40, 40, 0.95), rgba(40, 40, 40, 0.95)), url("/assets/img/wood_bg_orig.png");
+  background-image: 
+    linear-gradient(rgba(40, 40, 40, 0.85), rgba(40, 40, 40, 0.85)), 
+    url("/assets/img/wood_bg_orig.png");
 }
 
 body.fixed-top-nav {
